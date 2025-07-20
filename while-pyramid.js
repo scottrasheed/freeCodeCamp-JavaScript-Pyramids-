@@ -1,0 +1,19 @@
+const count = 8;
+const char = "#";
+let i = 1;
+
+while (i <= count) {
+  const row = " ".repeat(count - i) + char.repeat(2 * i - 1);
+  console.log(row);
+  i++;
+}
+/*
+       #       
+      ###      
+     #####     
+    #######    
+   #########   
+  ###########  
+ ############# 
+###############
+*/
